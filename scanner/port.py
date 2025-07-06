@@ -15,7 +15,6 @@ class Port:
             'udp': ''
         }
 
-
     def get_port_number(self) -> int: 
 
         return self.port_number
@@ -23,7 +22,6 @@ class Port:
     def set_status(self, status: str, proto: str): 
 
         self.status[proto] = status
-
 
     def get_status(self) -> dict: 
 

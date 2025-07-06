@@ -10,12 +10,10 @@ class TargetHost:
     def __init__(self, ip):
         self.ip = ip
         self.ports = {}
-
     
     def set_ports(self, ports: dict): 
 
         self.ports = ports
-
 
     def get_ip(self) -> str: 
 

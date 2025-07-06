@@ -50,7 +50,6 @@ def main():
                 tcp_scanner.set_target_host(target_host)
                 tcp_scanner.scan()
 
-
                 udp_scanner = UDPPortScanner()
                 udp_scanner.set_target_host(target_host)
                 udp_scanner.scan()
@@ -69,8 +68,6 @@ def main():
             
 
             target_list.append(target_host)
-
-        
 
         if(args.output == REPORT_TYPE_TEXT): 
 
